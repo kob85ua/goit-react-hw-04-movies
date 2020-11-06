@@ -1,8 +1,8 @@
 .Navigation-link {
-    text-decoration: none;
-    color: rgb(245, 245, 245);
+  text-decoration: none;
+  color: rgb(245, 245, 245);
 }
 .Navigation-link-active {
-    text-decoration: none;
-    color: rgb(250, 0, 0);
+  text-decoration: none;
+  color: rgb(250, 0, 0);
 }

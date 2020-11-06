@@ -13,9 +13,8 @@ class MovieDetailsPage extends Component {
       .fetchMoviesDetails(this.props.match.params.movieId)
       .then((movie) => this.setState({ movie }));
   }
-  
+
   componentDidUpdate(prevProps, prevState) {
-    
     this.props.location.state = prevProps.location.state;
   }
   handleGoBack = () => {

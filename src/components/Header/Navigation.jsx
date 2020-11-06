@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import routes from "../../routes";
 import { StyledNavigation } from "./styledNavigation";
-import "./../Styles/NavLink.css"
+import "./../Styles/NavLink.css";
 const Navigation = () => (
   <StyledNavigation>
     <li>

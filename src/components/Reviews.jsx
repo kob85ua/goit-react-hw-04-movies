@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import servicesAPI from "./../services/servicesApi";
-import {StyledTextField} from "./Styles/StyledTextField"
+import { StyledTextField } from "./Styles/StyledTextField";
 
 class Reviews extends Component {
   state = { reviews: [], error: null };
