@@ -19,13 +19,10 @@ class MovieDetailsPage extends Component {
   }
   handleGoBack = () => {
     const { state } = this.props.location;
-    const { isExact } = this.props.match;
+    
     if (state !== undefined && state.from) {
       return this.props.history.push(state.from);
-    } else if (!isExact) {
-      console.log(this.props.location.search);
-      return this.props.history.push(routes.movies.path);
-    }
+    } 
     this.props.history.push(routes.home.path);
   };
   render() {
